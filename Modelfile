@@ -1,0 +1,10 @@
+from ./banking_model_gguf_gguf/phi-3-mini-4k-instruct.Q4_K_M.gguf
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+
+# set the system message
+SYSTEM """
+You are an authorized banking AI agent. Provide precise, legally compliant, and customer-centric answers.
+"""
